@@ -1,0 +1,83 @@
+.container {
+  font-family: Garamond, serif;
+  text-align: center;
+  display: flex;
+  height: 0px;
+  color: black;
+  height: 10px;
+  
+  
+}
+.sidebar {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: double;
+  min-height: 55px;
+  box-sizing: border-box;
+}
+
+.sidebar div {
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(66, 80, 18);
+}
+
+
+
+.active {
+  box-sizing: border-box;
+  border-bottom: double;
+  color: #ffff !important;
+  display: block;
+}
+
+.none {
+  text-decoration: none;
+}
+
+.form {
+  width: 70%;
+  padding: 2rem;
+  
+}
+.form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  
+}
+.form input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 1px solid grey;
+  margin-bottom: 1rem;
+  
+}
+
+button {
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+}
+.mailsContainer{
+  width: 100%;
+  padding: 0.2rem;
+  
+}
+.unread{
+  padding-right: 10px;
+  color: crimson !important;
+  font-size: 0.8rem;
+}
+.bold{
+  font-weight: bolder;
+}

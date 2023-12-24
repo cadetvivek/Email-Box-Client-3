@@ -1,0 +1,26 @@
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: goldenrod;
+    font-family: Garamond, serif;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+    border-bottom: single;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-items: center;
+    font-weight: bold;
+    height: 10px;
+    border-bottom: double;
+}
+.home-container div:nth-child(1) {
+    font-size: 2rem;
+    /* font-style: italic;  */
+}
+@media screen and (max-width:525px) {
+    .home-container div:nth-child(1) {
+        font-size: 1.3rem;
+    }
+}
